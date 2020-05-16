@@ -8,5 +8,6 @@ class Solution:
             if interval[0] >= current_min:
                 current_min = interval[1]
                 count += 1
-        # return difference of # of intervals vs # of overlaps
+
+        # return difference of # of intervals vs # of non overlaps
         return len(intervals) - count
