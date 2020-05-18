@@ -1,5 +1,6 @@
 class Solution:
     def does_match(self, s1_arr: list, s2_arr: list) -> bool:
+        #checks if the two lists are equal
         for i in range(26):
             if s1_arr[i] != s2_arr[i]:
                 return False
